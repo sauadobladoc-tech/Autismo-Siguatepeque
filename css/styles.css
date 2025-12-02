@@ -519,3 +519,27 @@ wide    1300px - inifito
     margin: 0;
     line-height: 1.6;
 }
+
+.img-donacion {
+    filter: blur(5px);
+
+}
+
+.container1{
+    text-align: center;
+    position: relative;
+    top: -1100px;
+}
+
+.botondonar{
+    display: flex;
+    justify-content: center;
+}
+.botondonar button {
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
