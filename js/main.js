@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
             if (metodoPago === "paypal"){
                 e.preventDefault();
-                window.open("https://www.paypal.com/donate");
+                window.open("https://www.paypal.com/");
             }
 
             if (metodoPago === "tarjeta"){
@@ -74,6 +74,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 alert("En breve será redirigido a whatsapp.");
                 window.open("https:wa.me/5040000-0000", "_blank");
             }
+
+
         });
     }
 });
